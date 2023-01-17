@@ -4,17 +4,17 @@ services:
     build: .
     volumes:
       - ./src:/var/www/html
-  db:
-    image: mysql:8
-    environment:
-      MYSQL_ROOT_PASSWORD: 1q2w3e4r
-      MYSQL_DATABASE: demo
-      MYSQL_USER: demo
-      MYSQL_PASSWORD: 1q2w3e4r
-    ports:
-      - "3306:3306"
-    volumes:
-      - ./db/mysql:/var/lib/mysql
+#  db:
+#    image: mysql:8
+#    environment:
+#      MYSQL_ROOT_PASSWORD: 1q2w3e4r
+#      MYSQL_DATABASE: demo
+#      MYSQL_USER: demo
+#      MYSQL_PASSWORD: 1q2w3e4r
+#    ports:
+#      - "3306:3306"
+#    volumes:
+#      - ./db/mysql:/var/lib/mysql
   web:
     image: nginx:1.21.6-alpine
     ports:
