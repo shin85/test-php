@@ -28,8 +28,6 @@
                         </div>
                     </div>
                     <div class="card-body overflow-auto" data-mdb-perfect-scrollbar="true" id="chat-content" data-mdb-suppress-scroll-x="true" style="position: relative; height: 400px">
-                        <x-chat-item type="me1" name="aksjhdf" time="23 Jan 2:05 pm" message="kjhasdfjh" />
-                        <x-chat-item type="me" name="aksjhdf" time="23 Jan 2:05 pm" message="kjhasdfjh" />
 
                     </div>
                     <div class="card-footer text-muted d-flex justify-content-start align-items-center p-3">
