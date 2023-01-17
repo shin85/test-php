@@ -9,18 +9,16 @@ class chat-item extends Component
     public $message;
     public $name;
     public $time;
-    public $type;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($message, $name, $time, $type)
+    public function __construct($message, $name, $time)
     {
         $this->message = $message;
         $this->name = $name;
         $this->time = $time;
-        $this->type = $type;
     }
 
     /**

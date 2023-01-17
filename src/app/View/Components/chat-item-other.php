@@ -6,14 +6,19 @@ use Illuminate\View\Component;
 
 class chat-item-other extends Component
 {
+    public $message;
+    public $name;
+    public $time;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($message, $name, $time)
     {
-        //
+        $this->message = $message;
+        $this->name = $name;
+        $this->time = $time;
     }
 
     /**
