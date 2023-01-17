@@ -38,7 +38,7 @@ RUN chown -R ${USER} /var/www
 USER ${USER}
 
 # Copy permission to selected user
-COPY --chown=${USER}:${GROUP} . .
+#COPY --chown=${USER}:${GROUP} ./src .
 
 EXPOSE 9000
 
